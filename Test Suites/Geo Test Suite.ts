@@ -15,7 +15,7 @@
       <guid>4a4789f0-fe94-41a7-80b1-c9e85d021dab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Geo Test1</testCaseId>
+      <testCaseId>Test Cases/ProViewTests/ProViewTest1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

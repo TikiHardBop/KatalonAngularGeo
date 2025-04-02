@@ -17,17 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://localhost:4200/legalValue')
-
-WebUI.click(findTestObject('Page_Angular - The Complete Guide/a_Shopping List'))
-
-WebUI.click(findTestObject('Page_Angular - The Complete Guide/a_Legal Values'))
-
-WebUI.setText(findTestObject('Page_Angular - The Complete Guide/input_Name_name'), 'George')
-
-WebUI.click(findTestObject('Page_Angular - The Complete Guide/button_Clear'))
-
-WebUI.callTestCase(findTestCase('Imports/ImportTestCase'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Angular - The Complete Guide/button_FindById', [('tableName') : 'Table', ('rowName') : 'row'
+            , ('columnName') : 'ColumnName']))
 

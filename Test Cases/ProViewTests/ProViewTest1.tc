@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ImportTestCase</name>
+   <name>ProViewTest1</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2556d415-7e84-412b-84b9-0d5c0ad4878b</testCaseGuid>
+   <testCaseGuid>f4abc5a4-8bf9-4dc0-9b12-a1b076b4a8c0</testCaseGuid>
 </TestCaseEntity>

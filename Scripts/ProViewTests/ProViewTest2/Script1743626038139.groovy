@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('http://localhost:4200/legalValue')
+
+WebUI.click(findTestObject('Page_Angular - The Complete Guide/a_Legal Values'))
+
+WebUI.callTestCase(findTestCase('ProViewTests/Imports/ClickOnFindByIdButton'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Page_Angular - The Complete Guide/button_Clear'), 0)
+
+WebUI.closeBrowser()
+
